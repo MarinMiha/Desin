@@ -139,3 +139,11 @@ header .slider {
     background-color: #fed6e3;
     width: 100px;
     height: 2px; }
+  .portfolio .portfolio_gallery {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .portfolio .portfolio_gallery a img {
+      max-height: 345px; }

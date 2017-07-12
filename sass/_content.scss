@@ -41,4 +41,18 @@ $pink_color: #fed6e3;
         width: 100px;
         height: 2px;
     }
+    .portfolio_gallery {
+        margin: {
+            top: 5%;
+            bottom: 5%;
+        }
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        a {
+            img {
+                max-height: 345px;
+            }
+        }
+    }
 }
