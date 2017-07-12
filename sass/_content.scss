@@ -1,0 +1,28 @@
+.quote {
+    background-image: url(../img/quotes--bg.png);
+    background-size: cover;
+    .text_container {
+        margin: 0 5%;
+        h5 {
+            text-align: center;
+            padding: 40px 0;
+        font: {
+            size: 18px;
+            weight: lighter;
+        }
+            color: white;
+            letter-spacing: 2px;
+        }
+        h6 {
+            text-align: center;
+            padding-bottom: 40px;
+        font: {
+            size: 24px;
+            weight: bold;
+        }
+            color: white;
+            letter-spacing: 2px;
+        }
+    }
+    
+}

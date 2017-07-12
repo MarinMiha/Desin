@@ -107,3 +107,23 @@ header .slider {
   @media (max-width: 700px) {
     header .slider {
       min-height: 500px; } }
+
+.quote {
+  background-image: url(../img/quotes--bg.png);
+  background-size: cover; }
+  .quote .text_container {
+    margin: 0 5%; }
+    .quote .text_container h5 {
+      text-align: center;
+      padding: 40px 0;
+      font-size: 18px;
+      font-weight: lighter;
+      color: white;
+      letter-spacing: 2px; }
+    .quote .text_container h6 {
+      text-align: center;
+      padding-bottom: 40px;
+      font-size: 24px;
+      font-weight: bold;
+      color: white;
+      letter-spacing: 2px; }
