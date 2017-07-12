@@ -17,6 +17,7 @@ header .menu {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    transition: 1s;
     padding: 30px 0;
     color: #1e1e1e;
     font-size: 24px;
@@ -26,6 +27,13 @@ header .menu {
       color: #fed6e3; }
     header .menu .logo:hover {
       cursor: default; }
+    @media (max-width: 700px) {
+      header .menu .logo {
+        margin: 0 auto;
+        font-size: 32px; } }
+  @media (max-width: 700px) {
+    header .menu {
+      flex-direction: column; } }
 
 header .navigation .nav_li {
   -webkit-touch-callout: none;
@@ -43,6 +51,12 @@ header .navigation .nav_li {
     cursor: pointer;
     transition: .3s; }
 
+@media (max-width: 700px) {
+  header .navigation {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around; } }
+
 header .slider {
   display: flex;
   justify-content: center;
@@ -50,12 +64,14 @@ header .slider {
   min-height: 719px;
   background-image: url(../img/plant.png);
   background-size: auto;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  transition: 1s; }
   header .slider .slider_container {
     background-color: white;
     width: 550px;
     height: 100%;
-    text-align: center; }
+    text-align: center;
+    transition: 1s; }
     header .slider .slider_container .rect {
       margin: 0 auto;
       margin-top: 40px;
@@ -63,13 +79,31 @@ header .slider {
       height: 5px;
       background-color: #fed6e3; }
     header .slider .slider_container h1 {
+      transition: 1s;
       margin: 30px 0;
       font-size: 42px;
       font-weight: 100;
       letter-spacing: 3px;
       color: #1e1e1e; }
+      @media (max-width: 700px) {
+        header .slider .slider_container h1 {
+          font-size: 32px;
+          letter-spacing: normal; } }
+      @media (max-width: 400px) {
+        header .slider .slider_container h1 {
+          font-size: 28px;
+          letter-spacing: normal; } }
     header .slider .slider_container h3 {
       margin-bottom: 40px;
       font-size: 26px;
       font-weight: 100;
       color: gray; }
+    @media (max-width: 700px) {
+      header .slider .slider_container {
+        width: 350px; } }
+    @media (max-width: 400px) {
+      header .slider .slider_container {
+        width: 280px; } }
+  @media (max-width: 700px) {
+    header .slider {
+      min-height: 500px; } }
