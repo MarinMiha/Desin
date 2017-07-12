@@ -127,3 +127,15 @@ header .slider {
       font-weight: bold;
       color: white;
       letter-spacing: 2px; }
+
+.portfolio {
+  margin: 5% 5%; }
+  .portfolio h3 {
+    color: black;
+    font-weight: lighter;
+    font-size: 18px;
+    margin-bottom: 10px; }
+  .portfolio .underline {
+    background-color: #fed6e3;
+    width: 100px;
+    height: 2px; }

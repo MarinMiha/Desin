@@ -1,3 +1,5 @@
+$pink_color: #fed6e3;
+
 .quote {
     background-image: url(../img/quotes--bg.png);
     background-size: cover;
@@ -25,4 +27,18 @@
         }
     }
     
+}
+.portfolio {
+    margin: 5% 5%;
+    h3 {
+        color: black;
+        font-weight: lighter;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .underline {
+        background-color: $pink_color;
+        width: 100px;
+        height: 2px;
+    }
 }
