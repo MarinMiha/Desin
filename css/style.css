@@ -141,9 +141,10 @@ header .slider {
     height: 2px; }
   .portfolio .portfolio_gallery {
     margin-top: 5%;
-    margin-bottom: 5%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; }
-    .portfolio .portfolio_gallery a img {
-      max-height: 345px; }
+    margin-bottom: 5%; }
+    .portfolio .portfolio_gallery a {
+      margin: 0;
+      padding: 0; }
+      .portfolio .portfolio_gallery a img {
+        padding: 0;
+        margin: 0; }

@@ -46,12 +46,12 @@ $pink_color: #fed6e3;
             top: 5%;
             bottom: 5%;
         }
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
         a {
+            margin: 0;
+            padding: 0;
             img {
-                max-height: 345px;
+                padding: 0;
+                margin: 0;
             }
         }
     }

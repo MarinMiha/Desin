@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
         <script src="js/jquery-3.2.1.min.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
@@ -35,19 +36,19 @@
             <h3>Portfolio</h3>
             <figure class="underline"></figure>
             
-            <div class="portfolio_gallery">
-                <a href="img/portfolio/fruit.png" title="Fruit"><img src="img/portfolio/fruit.png" alt="Fruit" /></a>
-                <a href="img/portfolio/nature.png" title="Nature"><img src="img/portfolio/nature.png" alt="Nature" /></a>
-                <a href="img/portfolio/museum.png" title="Museum"><img src="img/portfolio/museum.png" alt="Museum" /></a>
-                <a href="img/portfolio/desk.png" title="Desk"><img src="img/portfolio/desk.png" alt="Desk" /></a>
-                <a href="img/portfolio/wheel.png" title="Wheel"><img src="img/portfolio/wheel.png" alt="Wheel" /></a>
+            <div id="gallery" class="portfolio_gallery">
+                <a href="img/portfolio/fruit.png" title="Fruit"><img id="img_1" src="img/portfolio/fruit.png" alt="Fruit" /></a>
+                <a href="img/portfolio/nature.png" title="Nature"><img id="img_2"src="img/portfolio/nature.png" alt="Nature" /></a>
+                <a href="img/portfolio/museum.png" title="Museum"><img id="img_3"src="img/portfolio/museum.png" alt="Museum" /></a>
+                <a href="img/portfolio/desk.png" title="Desk"><img id="img_4"src="img/portfolio/desk.png" alt="Desk" /></a>
+                <a href="img/portfolio/wheel.png" title="Wheel"><img id="img_5"src="img/portfolio/wheel.png" alt="Wheel" /></a>
             </div>  
         </section>
-        
         
         <script src="js/animations.js"></script>
         <script src="dist/simpleLightbox.js"></script>
         <script src="dist/simpleLightbox.min.js"></script>
+        <script src="js/images_layout.js"></script>
         
         <script type="text/javascript">
             $(".portfolio_gallery a").simpleLightbox();
