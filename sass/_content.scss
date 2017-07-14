@@ -87,10 +87,14 @@ $pink_color: #fed6e3;
             letter-spacing: 3px;
         }
         .info_container {
+            margin: {
+                top: 5%;
+                left: 2.5%;
+            }
             li {
                 display: flex;
                 flex-wrap: wrap;
-                margin: 10px 0;
+                margin: 2% 0;
                 img {
                     width: 15px;
                     height: 20px;
@@ -101,6 +105,63 @@ $pink_color: #fed6e3;
                         size: 14px;
                     }
                     color: #888;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+    }
+}
+.contact {
+    .contact_info {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        @media (max-width: 940px) {
+            flex-direction: column;
+            align-items: center;
+        }
+        li {
+            list-style: none;
+            margin: 3%;
+            @media (max-width: 940px) {
+                margin: 5%;
+            }
+            .border {
+                border: solid #1e1e1e;
+                border-width: 1px;
+                width: 250px;
+                height: 130px;
+                text-align: center;
+                margin: 20% 0;
+                @media (max-width: 940px) {
+                    width: 350px;
+                    height: 230px;
+                    margin: 20% 0;
+                }
+                @media (max-width: 400px) {
+                    width: 240px;
+                    height: 120px;
+                    margin: 10% 0;
+                }
+                .icon_bg {
+                    position: relative;
+                    left: 30%;
+                    top: -40%;
+                    background-color: #1e1e1e;
+                    width: 100px;
+                    height: 100px;
+                    @media (max-width: 940px) {
+                        left: 30%;
+                        top: -30%;
+                        width: 150px;
+                        height: 150px;
+                    }
+                    @media (max-width: 400px) {
+                        left: 30%;
+                        top: -40%;
+                        width: 100px;
+                        height: 100px;
+                    }
                 }
             }
         }
