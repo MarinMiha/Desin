@@ -1,0 +1,13 @@
+footer {
+    background: #1e1e1e;
+    ul {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        list-style: none;
+        padding: 3% 0;
+        li {
+            margin: 1%;
+        }
+    }
+}
