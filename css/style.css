@@ -63,7 +63,7 @@ header .slider {
   align-items: center;
   min-height: 719px;
   background-image: url(../img/plant.png);
-  background-size: auto;
+  background-size: cover;
   background-repeat: no-repeat;
   transition: 1s; }
   header .slider .slider_container {
