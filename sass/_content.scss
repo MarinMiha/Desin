@@ -38,7 +38,7 @@ $pink_color: #fed6e3;
     }
     .underline {
         background-color: $pink_color;
-        width: 100px;
+        width: 70px;
         height: 2px;
     }
     .portfolio_gallery {
@@ -68,7 +68,7 @@ $pink_color: #fed6e3;
         margin: 0 5%;
         margin-bottom: 5%;
         background-color: $pink_color;
-        width: 100px;
+        width: 70px;
         height: 2px;
     }
     .about_container {
@@ -112,6 +112,21 @@ $pink_color: #fed6e3;
     }
 }
 .contact {
+    h3 {
+        margin: 0 5%;
+        color: black;
+        font-weight: lighter;
+        font-size: 18px;
+        margin-bottom: 10px;
+        margin-top: 5%;
+    }
+    .underline {
+        margin: 0 5%;
+        margin-bottom: 10%;
+        background-color: $pink_color;
+        width: 70px;
+        height: 2px;
+    }
     .contact_info {
         display: flex;
         justify-content: center;
@@ -144,6 +159,9 @@ $pink_color: #fed6e3;
                     margin: 10% 0;
                 }
                 .icon_bg {
+                    display: flex;
+                        justify-content: center;
+                        align-items: center;
                     position: relative;
                     left: 30%;
                     top: -40%;
@@ -161,6 +179,9 @@ $pink_color: #fed6e3;
                         top: -40%;
                         width: 100px;
                         height: 100px;
+                    }
+                    img {
+                        
                     }
                 }
             }

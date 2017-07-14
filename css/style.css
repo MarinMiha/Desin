@@ -137,7 +137,7 @@ header .slider {
     margin-bottom: 10px; }
   .portfolio .underline {
     background-color: #fed6e3;
-    width: 100px;
+    width: 70px;
     height: 2px; }
   .portfolio .portfolio_gallery {
     margin-top: 5%;
@@ -160,7 +160,7 @@ header .slider {
   margin: 0 5%;
   margin-bottom: 5%;
   background-color: #fed6e3;
-  width: 100px;
+  width: 70px;
   height: 2px; }
 
 .about .about_container {
@@ -188,6 +188,21 @@ header .slider {
         font-size: 14px;
         color: #888;
         letter-spacing: 1px; }
+
+.contact h3 {
+  margin: 0 5%;
+  color: black;
+  font-weight: lighter;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 5%; }
+
+.contact .underline {
+  margin: 0 5%;
+  margin-bottom: 10%;
+  background-color: #fed6e3;
+  width: 70px;
+  height: 2px; }
 
 .contact .contact_info {
   display: flex;
@@ -221,6 +236,9 @@ header .slider {
           height: 120px;
           margin: 10% 0; } }
       .contact .contact_info li .border .icon_bg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         position: relative;
         left: 30%;
         top: -40%;
