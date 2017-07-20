@@ -8,6 +8,9 @@ footer {
         padding: 3% 0;
         li {
             margin: 1%;
+            &:hover {
+                cursor: pointer;
+            }
         }
     }
 }

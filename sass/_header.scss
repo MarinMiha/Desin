@@ -59,10 +59,14 @@ header {
             display: inline-block;
             font-size: 14px;
             transition: .3s;
-            &:hover {
-                color: $pink_color;
-                cursor: pointer;
-                transition: .3s;
+            a {
+                color:  black;
+                text-decoration: none; 
+                &:hover {   
+                    color: $pink_color;
+                    cursor: pointer;
+                    transition: .3s;
+                }
             }
         }
         @media (max-width: 700px){

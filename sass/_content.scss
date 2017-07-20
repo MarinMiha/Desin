@@ -7,7 +7,10 @@ $pink_color: #fed6e3;
         margin: 0 5%;
         h5 {
             text-align: center;
-            padding: 40px 0;
+            padding: {
+                top: 60px;
+                bottom: 20px;
+            }
         font: {
             size: 18px;
             weight: lighter;
@@ -17,7 +20,7 @@ $pink_color: #fed6e3;
         }
         h6 {
             text-align: center;
-            padding-bottom: 40px;
+            padding-bottom: 60px;
         font: {
             size: 24px;
             weight: bold;
@@ -137,8 +140,8 @@ $pink_color: #fed6e3;
         }
         li {
             list-style: none;
-            margin: 3%;
-            @media (max-width: 940px) {
+            margin: 0 3%;
+            @media (max-width: 400px) {
                 margin: 5%;
             }
             .border {
@@ -147,7 +150,7 @@ $pink_color: #fed6e3;
                 width: 250px;
                 height: 130px;
                 text-align: center;
-                margin: 20% 0;
+                margin-bottom: 20%;                
                 @media (max-width: 940px) {
                     width: 350px;
                     height: 230px;
@@ -160,8 +163,8 @@ $pink_color: #fed6e3;
                 }
                 .icon_bg {
                     display: flex;
-                        justify-content: center;
-                        align-items: center;
+                    justify-content: center;
+                    align-items: center;
                     position: relative;
                     left: 30%;
                     top: -40%;
@@ -179,9 +182,6 @@ $pink_color: #fed6e3;
                         top: -40%;
                         width: 100px;
                         height: 100px;
-                    }
-                    img {
-                        
                     }
                 }
             }
