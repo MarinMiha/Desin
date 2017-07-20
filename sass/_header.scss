@@ -16,7 +16,7 @@
 $pink_color: #fed6e3;
 
 * {
-    font-family: Roboto;
+    font-family: $roboto-font;
     padding: 0;
     margin: 0;
 }
@@ -33,10 +33,9 @@ header {
             padding: 30px 0;
             color: #1e1e1e;
             font: {
-                size: 24px;
-                weight: bold;
+                weight: 900;
+                size: 32px;
             }
-            letter-spacing: 2px;
             span {
                 color: $pink_color;
             }
@@ -60,7 +59,8 @@ header {
             font-size: 14px;
             transition: .3s;
             a {
-                color:  black;
+                font-weight: 100;
+                color: black;
                 text-decoration: none; 
                 &:hover {   
                     color: $pink_color;
@@ -104,7 +104,7 @@ header {
                 margin: 30px 0;
                 font: {
                     size: 42px;
-                    weight: 100;
+                    weight: 300;
                 }
                 letter-spacing: 3px;
                 color: #1e1e1e;
@@ -123,7 +123,6 @@ header {
                     size: 26px;
                     weight: 100;
                 }
-                color: gray;
             }
             @media (max-width: 700px) {
                 width: 350px;
