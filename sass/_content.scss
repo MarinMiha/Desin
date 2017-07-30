@@ -52,9 +52,13 @@ $pink_color: #fed6e3;
         a {
             margin: 0;
             padding: 0;
+            background-color: red;
             img {
                 padding: 0;
                 margin: 0;
+                &:hover {
+                    opacity: 0.8;
+                }
             }
         }
     }

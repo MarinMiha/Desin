@@ -161,10 +161,13 @@ header .slider {
     margin-bottom: 5%; }
     .portfolio .portfolio_gallery a {
       margin: 0;
-      padding: 0; }
+      padding: 0;
+      background-color: red; }
       .portfolio .portfolio_gallery a img {
         padding: 0;
         margin: 0; }
+        .portfolio .portfolio_gallery a img:hover {
+          opacity: 0.8; }
 
 .about h3 {
   margin: 0 5%;
