@@ -7,9 +7,18 @@ footer {
         list-style: none;
         padding: 3% 0;
         li {
-            margin: 1%;
+            margin: 0 1%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            transition: .4s;
             &:hover {
                 cursor: pointer;
+                background: rgba(255,255,255,0.3);
+                transition: .4s;
             }
         }
     }

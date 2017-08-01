@@ -3,6 +3,10 @@
     <head>
         
         <meta charset="utf-8">
+        <meta name="description" content="Desin landing page template">
+        <meta name="author" content="Mihajlo Marinković">
+        <meta name="keywords" content="HTML,SASS,Gulp,JavaScript,jQuery">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <script src="js/jquery-3.2.1.min.js"></script>
         
@@ -16,13 +20,13 @@
     
     <body>
         
-        <header>
+        <header id="head">
             <div class="menu">
                 <figure class="logo">de<span clas="letter">s</span>in</figure>
                 <ul class="navigation">
-                    <li class="nav_li"><a href="#">PORTFOLIO</a></li>
-                    <li class="nav_li"><a href="#">ABOUT</a></li>
-                    <li class="nav_li"><a href="#">CONTACT</a></li>
+                    <li class="nav_li"><a href="#portfolio">PORTFOLIO</a></li>
+                    <li class="nav_li"><a href="#about">ABOUT</a></li>
+                    <li class="nav_li"><a href="#contact">CONTACT</a></li>
                 </ul>
             </div>
             <div class="slider">
@@ -42,7 +46,9 @@
             </div>
             
         </section>
-        <section class="portfolio">
+        
+        
+        <section id="portfolio" class="portfolio">
             <h3>Portfolio</h3>
             <figure class="underline"></figure>
             <div id="gallery" class="portfolio_gallery">
@@ -54,7 +60,8 @@
             </div> 
         </section>
         
-        <section class="about">
+        
+        <section id="about" class="about">
             <h3>About</h3>
             <figure class="underline"></figure>
             <div class="about_container">
@@ -76,25 +83,27 @@
             </div>       
         </section>
         
-        <section class="contact">
+        
+        
+        <section id="contact" class="contact">
             <h3>Contact</h3>
             <figure class="underline"></figure>
             <ul class="contact_info">
                 <li>
                     <div class="border">
-                        <div class="icon_bg"><img src="img/contact/mail.png"/></div>
+                        <div class="icon_bg"><a href="#"><img src="img/contact/mail.png"/></a></div>
                         <p>Write me an e-mail</p>
                     </div>
                 </li>
                 <li>
                     <div class="border">
-                        <div class="icon_bg"><img src="img/contact/mobile.png"/></div>
+                        <div class="icon_bg"><a href="#"><img src="img/contact/mobile.png"/></a></div>
                         <p>Call me</p>
                     </div>
                 </li>
                 <li>
                     <div class="border">
-                        <div class="icon_bg"><img src="img/contact/behance.png"/></div>
+                        <div class="icon_bg"><a href="#"><img src="img/contact/behance.png"/></a></div>
                         <p>Check out my portfolio</p>
                     </div>
                 </li>
@@ -119,6 +128,7 @@
         <script src="dist/simpleLightbox.js"></script>
         <script src="dist/simpleLightbox.min.js"></script>
         <script src="js/images_layout.js"></script>
+        <script src="js/smooth_scroll.js"></script>
         
         <script type="text/javascript">
             $(".portfolio_gallery a").simpleLightbox();

@@ -1,6 +1,15 @@
 $pink_color: #fed6e3;
 
+.arrow_top {
+    img {
+        object-fit: cover;
+        width: 30px;
+        height: 30px;
+    }
+}
+
 .quote {
+    outline: 0;
     background-image: url(../img/quotes--bg.png);
     background-size: cover;
     .text_container {
@@ -32,6 +41,7 @@ $pink_color: #fed6e3;
     
 }
 .portfolio {
+    outline: 0;
     margin: 5% 5%;
     h3 {
         color: black;
@@ -52,8 +62,8 @@ $pink_color: #fed6e3;
         a {
             margin: 0;
             padding: 0;
-            background-color: red;
             img {
+                object-fit: cover;
                 padding: 0;
                 margin: 0;
                 &:hover {
@@ -64,6 +74,7 @@ $pink_color: #fed6e3;
     }
 }
 .about {
+    outline: 0;
     h3 {
         margin: 0 5%;
         color: black;
@@ -120,6 +131,7 @@ $pink_color: #fed6e3;
     }
 }
 .contact {
+    outline: 0;
     h3 {
         margin: 0 5%;
         color: black;
