@@ -33,29 +33,17 @@ header .menu {
   background: white;
   display: flex;
   justify-content: space-between; }
-  header .menu .logo {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    transition: 1s;
-    padding: 30px 0;
-    color: #1e1e1e;
-    font-weight: 900;
-    font-size: 32px; }
-    header .menu .logo span {
-      color: #fed6e3; }
-    header .menu .logo:hover {
-      cursor: default; }
-    @media (max-width: 700px) {
-      header .menu .logo {
-        margin: 0 auto;
-        font-size: 32px; } }
   @media (max-width: 700px) {
     header .menu {
-      flex-direction: column; } }
+      flex-direction: column;
+      height: 120px; } }
+
+header .logo_img {
+  margin-top: 30px; }
+  @media (max-width: 700px) {
+    header .logo_img {
+      display: flex;
+      justify-content: center; } }
 
 header .navigation .nav_li {
   -webkit-touch-callout: none;
@@ -69,7 +57,7 @@ header .navigation .nav_li {
   font-size: 14px;
   transition: .3s; }
   header .navigation .nav_li a {
-    font-weight: 100;
+    font-weight: 300;
     color: black;
     text-decoration: none; }
     header .navigation .nav_li a:hover {
@@ -131,7 +119,7 @@ header .slider {
         width: 280px; } }
   @media (max-width: 700px) {
     header .slider {
-      min-height: 500px; } }
+      min-height: 300px; } }
 
 .arrow_top img {
   object-fit: cover;
@@ -176,14 +164,20 @@ header .slider {
     margin-top: 5%;
     margin-bottom: 5%; }
     .portfolio .portfolio_gallery a {
-      margin: 0;
-      padding: 0; }
+      text-decoration: none;
+      border: 0; }
       .portfolio .portfolio_gallery a img {
         object-fit: cover;
         padding: 0;
         margin: 0; }
         .portfolio .portfolio_gallery a img:hover {
-          opacity: 0.8; }
+          opacity: 0.5;
+          transition: .5s; }
+    .portfolio .portfolio_gallery .img_container {
+      display: inline-block;
+      background: linear-gradient(rgba(230, 233, 240, 0), rgba(254, 214, 227, 0)); }
+      .portfolio .portfolio_gallery .img_container:hover {
+        background: linear-gradient(#e6e9f0, #fed6e3); }
 
 .about {
   outline: 0; }
@@ -243,56 +237,65 @@ header .slider {
     height: 2px; }
   .contact .contact_info {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap; }
-    @media (max-width: 940px) {
+    @media (max-width: 755px) {
       .contact .contact_info {
+        align-items: center;
         flex-direction: column;
-        align-items: center; } }
+        margin-top: 15%; } }
     .contact .contact_info li {
       list-style: none;
       margin: 0 3%; }
+      @media (max-width: 755px) {
+        .contact .contact_info li {
+          margin: 3% 0; } }
       @media (max-width: 400px) {
         .contact .contact_info li {
           margin: 5%; } }
       .contact .contact_info li .border {
         border: solid #1e1e1e;
         border-width: 1px;
-        width: 250px;
+        width: 200px;
         height: 130px;
         text-align: center;
         margin-bottom: 20%; }
-        @media (max-width: 940px) {
+        @media (max-width: 755px) {
           .contact .contact_info li .border {
-            width: 350px;
-            height: 230px;
-            margin: 20% 0; } }
+            width: 330px;
+            height: 180px; } }
         @media (max-width: 400px) {
           .contact .contact_info li .border {
             width: 240px;
-            height: 120px;
+            height: 150px;
             margin: 10% 0; } }
         .contact .contact_info li .border p {
           font-weight: 300; }
+          @media (max-width: 755px) {
+            .contact .contact_info li .border p {
+              font-size: 24px; } }
+          @media (max-width: 400px) {
+            .contact .contact_info li .border p {
+              font-size: 16px; } }
         .contact .contact_info li .border .icon_bg {
           display: flex;
           justify-content: center;
           align-items: center;
           position: relative;
-          left: 30%;
+          left: 25%;
           top: -40%;
           background-color: #1e1e1e;
           width: 100px;
           height: 100px; }
-          @media (max-width: 940px) {
+          @media (max-width: 755px) {
             .contact .contact_info li .border .icon_bg {
-              left: 30%;
-              top: -30%;
-              width: 150px;
-              height: 150px; } }
+              left: 36.5%;
+              top: -37%;
+              width: 100px;
+              height: 100px; } }
           @media (max-width: 400px) {
             .contact .contact_info li .border .icon_bg {
               left: 30%;
-              top: -40%;
+              top: -37%;
               width: 100px;
               height: 100px; } }
